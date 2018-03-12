@@ -1,0 +1,16 @@
+* PC, laborator3 *
+
+Rulare schelet de cod:
+	cd link_emulator
+	make
+	cd ..
+	make
+	./run_experiment <fisier>
+
+Se va genera un fisier de forma <fisier>_recv.
+Verificare: diff <fisier> <fisier>_recv.
+
+Pentru fisiere de dimensiuni mai mari de 1MB, 
+se va astepta un timp de cateva secunde pana 
+la executarea diff.
+
